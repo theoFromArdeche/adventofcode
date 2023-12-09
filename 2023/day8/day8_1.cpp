@@ -10,7 +10,7 @@ using namespace std;
 int main() {
     ifstream input_file("./day8_inputs.txt");
     
-    string instructions="";
+    string instructions;
     getline(input_file, instructions);
 
     int answer=0;

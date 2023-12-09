@@ -19,7 +19,7 @@ long long lcm(long long a, long long b) {
 int main() {
     ifstream input_file("./day8_inputs.txt");
     
-    string instructions="";
+    string instructions;
     getline(input_file, instructions);
 
     long long answer=1;

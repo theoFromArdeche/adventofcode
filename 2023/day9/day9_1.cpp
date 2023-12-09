@@ -21,7 +21,7 @@ int main() {
             i++;
         }
         values[index_values].push_back(stoi(temp));
-        int flag_not_end=true;
+        bool flag_not_end=true;
         while (flag_not_end) {
             values.push_back(vector<int>(0));
             flag_not_end=false;

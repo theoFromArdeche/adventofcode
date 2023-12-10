@@ -126,17 +126,16 @@ int main() {
             }
         }       
     }
-    
+
     int count_outside_tiles=0;
     visit_graph(bigger_graph, make_pair(0, 0), count_outside_tiles);
 
     for (int i=1; i<bigger_graph.size()-1; i++) {
         for (int j=1; j<bigger_graph[0].size()-1; j++) {
-            if (bigger_graph[i][j]=='&') {
-                for (int r=-1; r<2; r++) {
-                    for (int c=-1; c<2; c++) {
-                        if (bigger_graph[i+r][j+c]!='&'&&bigger_graph[i+r][j+c]!='O') bigger_graph[i+r][j+c]='#';
-                    }
+            if (bigger_graph[i][j]!='&') continue;
+            for (int r=-1; r<2; r++) {
+                for (int c=-1; c<2; c++) {
+                    if (bigger_graph[i+r][j+c]!='&'&&bigger_graph[i+r][j+c]!='O') bigger_graph[i+r][j+c]='#';
                 }
             }
         }

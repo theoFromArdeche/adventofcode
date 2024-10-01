@@ -90,7 +90,7 @@ The repository is structured as follows:
 
 | Day | Language Chosen | Status | Did not cheat           |
 |-----|-----------------|--------|-------------------------|
-| 1   | Dart            | ❌     | ✔️                       |
+| 1   | Dart            | ✔️      | ✔️                       |
 | 2   | TBD             | ❌     | ✔️                       |
 | 3   | TBD             | ❌     | ✔️                       |
 | 4   | TBD             | ❌     | ✔️                       |

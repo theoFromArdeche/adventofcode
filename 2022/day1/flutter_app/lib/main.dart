@@ -66,34 +66,45 @@ class _MyHomePageState extends State<MyHomePage> {
     FilePickerResult? result = await FilePicker.platform.pickFiles(
       type: FileType.custom,
       allowedExtensions: ['txt'],
+      allowMultiple: false,
     );
 
+    
     if (result != null) {
-      // Get the selected file
-      File file = File(result.files.single.path!);
 
-      String fileContent = (await file.readAsString());
-
-      int max=0, secondMax=0, thirdMax=0, sum=0;
-
-      for (String elfBasket in fileContent.split('\n\n')) {
-        sum=0;
-        for (String calories in elfBasket.split('\n')) {
-          if (calories=="") continue;
-          //print(calories+'\n');
-          sum+=int.parse(calories);
+      var fileBytes = result.files.single.bytes;
+      String? fileContent;    
+      
+      if (fileBytes != null) {
+        fileContent = String.fromCharCodes(fileBytes);
+      } else {
+        String? filePath = result.files.single.path;
+        if (filePath != null) {
+          File file = File(filePath);
+          fileContent = (await file.readAsString());
         }
-        if (sum>=max) {thirdMax=secondMax; secondMax=max; max=sum;}
-        else if (sum>=secondMax) {thirdMax=secondMax; secondMax=sum;}
-        else if (sum>thirdMax) {thirdMax=sum;}
+      } 
+
+      if (fileContent != null) {
+
+        int max=0, secondMax=0, thirdMax=0, sum=0;
+
+        for (String elfBasket in fileContent.split('\n\n')) {
+          sum=0;
+          for (String calories in elfBasket.split('\n')) {
+            if (calories=="") continue;
+            //print(calories+'\n');
+            sum+=int.parse(calories);
+          }
+          if (sum>=max) {thirdMax=secondMax; secondMax=max; max=sum;}
+          else if (sum>=secondMax) {thirdMax=secondMax; secondMax=sum;}
+          else if (sum>thirdMax) {thirdMax=sum;}
+        }
+        setState(() {
+          _answer1 = max;
+          _answer2 = max + secondMax + thirdMax;
+        });
       }
-
-
-      // Store the file path or perform any other operation on the file
-      setState(() {
-        _answer1 = max;
-        _answer2 = max + secondMax + thirdMax;
-      });
     }
   }
 
@@ -136,6 +147,9 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             ElevatedButton(
               onPressed: _pickFile,
+              style: ElevatedButton.styleFrom(
+                foregroundColor: Colors.black
+              ),
               child: const Text('Select the input'),
             ),
             const SizedBox(height: 20),

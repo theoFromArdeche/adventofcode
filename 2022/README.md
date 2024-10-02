@@ -63,7 +63,7 @@ The repository is structured as follows:
 ```
 /
 |-- day1/
-|   |-- solution.dart
+|   |-- solution.<language>
 |   |-- README.md
 |
 |-- day2/
@@ -91,7 +91,7 @@ The repository is structured as follows:
 | Day | Language Chosen | Status | Did not cheat           |
 |-----|-----------------|--------|-------------------------|
 | 1   | Dart            | ✔️      | ✔️                       |
-| 2   | TBD             | ❌     | ✔️                       |
+| 2   | F#              | ✔️      | ✔️                       |
 | 3   | TBD             | ❌     | ✔️                       |
 | 4   | TBD             | ❌     | ✔️                       |
 | 5   | TBD             | ❌     | ✔️                       |

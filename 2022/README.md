@@ -92,8 +92,8 @@ The repository is structured as follows:
 |-----|-----------------|--------|-------------------------|
 | 1   | Dart            | ✔️      | ✔️                       |
 | 2   | F#              | ✔️      | ✔️                       |
-| 3   | Javascript      | ✔️      | ✔️                       |
-| 4   | TBD             | ❌     | ✔️                       |
+| 3   | JavaScript      | ✔️      | ✔️                       |
+| 4   | Ada             | ✔️      | ✔️                       |
 | 5   | TBD             | ❌     | ✔️                       |
 | 6   | TBD             | ❌     | ✔️                       |
 | 7   | TBD             | ❌     | ✔️                       |

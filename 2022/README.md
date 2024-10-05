@@ -94,7 +94,7 @@ The repository is structured as follows:
 | 2   | F#              | ✔️      | ✔️                       |
 | 3   | JavaScript      | ✔️      | ✔️                       |
 | 4   | Ada             | ✔️      | ✔️                       |
-| 5   | TBD             | ❌     | ✔️                       |
+| 5   | Objective-c     | ✔️      | ✔️                       |
 | 6   | TBD             | ❌     | ✔️                       |
 | 7   | TBD             | ❌     | ✔️                       |
 | 8   | TBD             | ❌     | ✔️                       |

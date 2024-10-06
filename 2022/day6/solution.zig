@@ -15,7 +15,7 @@ pub fn main() !void {
     //std.debug.print("File content:\n{s}\n", .{buffer});
 
     var count: u32 = 0;
-    var start: u32 = 0;
+    var start: usize = 0;
     var index: usize = 0;
 
     var flagPart1: bool = true;

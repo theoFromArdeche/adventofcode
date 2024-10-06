@@ -95,7 +95,7 @@ The repository is structured as follows:
 | 3   | JavaScript      | ✔️      | ✔️                       |
 | 4   | Ada             | ✔️      | ✔️                       |
 | 5   | Objective-c     | ✔️      | ✔️                       |
-| 6   | TBD             | ❌     | ✔️                       |
+| 6   | Zig             | ✔️      | ✔️                       |
 | 7   | TBD             | ❌     | ✔️                       |
 | 8   | TBD             | ❌     | ✔️                       |
 | 9   | TBD             | ❌     | ✔️                       |

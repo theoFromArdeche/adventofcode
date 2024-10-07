@@ -96,7 +96,7 @@ The repository is structured as follows:
 | 4   | Ada             | ✔️      | ✔️                       |
 | 5   | Objective-c     | ✔️      | ✔️                       |
 | 6   | Zig             | ✔️      | ✔️                       |
-| 7   | TBD             | ❌     | ✔️                       |
+| 7   | Fortran         | ✔️      | ✔️                       |
 | 8   | TBD             | ❌     | ✔️                       |
 | 9   | TBD             | ❌     | ✔️                       |
 | 10  | TBD             | ❌     | ✔️                       |

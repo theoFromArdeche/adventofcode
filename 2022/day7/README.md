@@ -1,6 +1,6 @@
 # 🎄 Advent of Code 2022 - Day 7 🎄
 
-This repository contains the code for **Day 5**, written in **Fortran**.
+This repository contains the code for **Day 7**, written in **Fortran**.
 
 The code that solves the problem is in `solution.f90`.
 

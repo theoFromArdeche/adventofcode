@@ -97,7 +97,7 @@ The repository is structured as follows:
 | 5   | Objective-c     | ✔️      | ✔️                       |
 | 6   | Zig             | ✔️      | ✔️                       |
 | 7   | Fortran         | ✔️      | ✔️                       |
-| 8   | TBD             | ❌     | ✔️                       |
+| 8   | Cobol -> Python | ✔️      | ❌                      |
 | 9   | TBD             | ❌     | ✔️                       |
 | 10  | TBD             | ❌     | ✔️                       |
 | 11  | TBD             | ❌     | ✔️                       |

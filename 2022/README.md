@@ -98,7 +98,7 @@ The repository is structured as follows:
 | 6   | Zig             | ✔️      | ✔️                       |
 | 7   | Fortran         | ✔️      | ✔️                       |
 | 8   | Cobol -> Python | ✔️      | ❌                      |
-| 9   | TBD             | ❌     | ✔️                       |
+| 9   | Go              | ✔️      | ✔️                       |
 | 10  | TBD             | ❌     | ✔️                       |
 | 11  | TBD             | ❌     | ✔️                       |
 | 12  | TBD             | ❌     | ✔️                       |

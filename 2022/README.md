@@ -99,7 +99,7 @@ The repository is structured as follows:
 | 7   | Fortran         | ✔️      | ✔️                       |
 | 8   | Cobol -> Python | ✔️      | ❌                      |
 | 9   | Go              | ✔️      | ✔️                       |
-| 10  | TBD             | ❌     | ✔️                       |
+| 10  | R -> C          | ✔️      | ❌                      |
 | 11  | TBD             | ❌     | ✔️                       |
 | 12  | TBD             | ❌     | ✔️                       |
 | 13  | TBD             | ❌     | ✔️                       |

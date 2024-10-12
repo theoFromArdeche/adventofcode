@@ -100,7 +100,7 @@ The repository is structured as follows:
 | 8   | Cobol -> Python | ✔️      | ❌                      |
 | 9   | Go              | ✔️      | ✔️                       |
 | 10  | R -> C          | ✔️      | ❌                      |
-| 11  | TBD             | ❌     | ✔️                       |
+| 11  | c++             | ✔️      | ✔️                       |
 | 12  | TBD             | ❌     | ✔️                       |
 | 13  | TBD             | ❌     | ✔️                       |
 | 14  | TBD             | ❌     | ✔️                       |
